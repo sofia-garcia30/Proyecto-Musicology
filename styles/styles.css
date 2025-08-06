@@ -253,30 +253,212 @@
 
 @media (max-width: 1279px){
     .imagen03{
-        width: 50%;
+        width: 100%;
     }
 
     .imagen04{
-        width: 50%;
+        width: 100%;
     }
 
     .imagen05{
-        width: 50%;
+        width: 100%;
     }
 
     .cajita04{
-        width: 200px;
+        width: 250px;
     }
 
     .cajita05{
-        width: 200px;
+        width: 250px;
     }
 
     .cajita06{
-        width: 200px;
+        width: 250px;
+    }
+
+    .columna01{
+        gap: 400px;
+    }
+
+    .caja02{
+        zoom: 100%;
+        background-position-x: -200px;
+    }
+
+    .parrafo02{
+        width: 80%;
+    }
+
+    .parrafo03{
+        font-size: 18px;
+    }
+
+    .titulo03{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .columnas01{
+        gap: 40px;
+    }
+
+    .parrafo04{
+        width: 80%;
+    }
+
+    .columnas02{
+        gap: 40px;
+    }
+
+    .parrafo05{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 920px){
+    .titulo01{
+        font-size: 100px;
+    }
+
+    .columna02{
+        padding-left: 50px;
+    }
+    
+    .parrafo01{
+        font-size: 28px;
+    }
+
+    .caja02{
+        background-position-x: -350px;
+    }
+
+    .boton01{
+        padding: 10px 70px;
+        font-size: 30px;
+    }
+
+    .titulo02{
+        font-size: 85px;
+    }
+
+    .parrafo02{
+        font-size: 30px;
+    }
+
+    .columnas01{
+        padding: 35px;
+        gap: 30px;
     }
 
     .boton02{
-        padding: 15px 100px;
+        padding: 10px 50px;
     }
+
+    .columnas02{
+        gap: 20px;
+    }
+
+    .cajita04{
+        width: 230px;
+    }
+
+    .cajita05{
+        width: 230px;
+    }
+
+    .cajita06{
+        width: 230px;
+    }
+
+    .imagen06{
+        padding-top: 50px;
+    }
+
+    .imagen07{
+        padding-top: 50px;
+    }
+
+    .imagen08{
+        padding-top: 50px;
+    }
+
+    .titulo05{
+        padding-top: 30px;
+    }
+
+    .parrafo05{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px){
+    .columna01{
+        gap: 200px;
+    }
+
+    .columnas01{
+        flex-direction: column;
+        padding: 65px;
+    }
+
+    .columnas02{
+        flex-direction: column;
+        margin-left: 65px;
+        gap: 50px;
+    }
+
+    .titulo01{
+        font-size: 70px;
+    }
+
+    .columna02{
+        padding-left: 30px;
+        padding-top: 110px;
+        width: 70%;
+    }
+
+    .caja02{
+        background-position-x: -600px;
+        height: 550px;
+        background-position-y: -130px;
+    }
+
+    .titulo02{
+        font-size: 70px;
+    }
+
+    .parrafo02{
+        font-size: 25px;
+    }
+
+    .titulo04{
+        font-size: 70px;
+    }
+
+    .parrafo04{
+        font-size: 29px;
+    }
+
+    .cajita04{
+        width: 350px;
+        height: 470px;
+    }
+
+    .cajita05{
+        width: 350px;
+        height: 470px;
+    }
+
+    .cajita06{
+        width: 350px;
+        height: 470px;
+    }
+
+    .parrafo06{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px){
+    
 }
